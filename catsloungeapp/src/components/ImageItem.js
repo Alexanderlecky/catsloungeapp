@@ -1,5 +1,5 @@
 import React from 'react';
-import './ImageItem.css';
+import "../styles/ImageItem.css";
 
 function ImageItem({ image }) {
   return (

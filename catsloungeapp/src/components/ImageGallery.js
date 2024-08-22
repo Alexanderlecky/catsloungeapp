@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ImageItem from './ImageItem';
-import './ImageGallery.css';
+import  "../styles/ImageGallery.css"
 import { getCatImages } from '../utils/api';
 
 function ImageGallery() {

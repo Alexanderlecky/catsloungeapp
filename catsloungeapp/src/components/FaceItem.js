@@ -1,5 +1,5 @@
 import React from 'react';
-import './FactItem.css';
+
 
 function FactItem({ fact }) {
   return (
