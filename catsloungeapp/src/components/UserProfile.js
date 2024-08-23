@@ -9,9 +9,22 @@ function UserProfile() {
         alt="User Profile" 
         className="profile-picture"
       />
-      <h2>Your Profile</h2>
-      <p>Here you can view and manage your favorite cat facts and images.</p>
-      {/* Add more profile-related content here */}
+      <h2>Alexander Karanja</h2>
+      <p>Cat Enthusiast | Developer | Animal Lover</p>
+
+      <div className="profile-details">
+        <h3>Profile Details</h3>
+        <p><strong>Email:</strong> alexander@example.com</p>
+        <p><strong>Location:</strong> Nairobi, Kenya</p>
+        <p><strong>Member Since:</strong> January 2023</p>
+      </div>
+
+      <div className="profile-actions">
+        <h3>Manage Your Profile</h3>
+        <button className="btn edit-profile">Edit Profile</button>
+        <button className="btn view-favorites">View Favorite Cats</button>
+        <button className="btn logout">Logout</button>
+      </div>
     </div>
   );
 }
